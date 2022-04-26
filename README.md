@@ -19,11 +19,18 @@ In this project, we set up awesome books repository. our goal here was to build 
 - scss
 - linters
 
-To get a local copy up and running follow these simple steps:
-
-1. Go to the [repository page](https://github.com/abiodunraheem/awesome-book-es6/).
-2. Press the "Code" button and copy the link.
-3. Clone it using git command `git clone <https://github.com/abiodunraheem/awesome-book-es6/>`.
+## Getting Started
+To get a local copy, open and running follow these simple example steps:
+### Setup
+- Download or Clone Repository.
+- In case you downloaded repository Extract ZIP Folder.
+### Installation
+- One folder in your text editor.
+- Run `npm install` command to install all dependencies.
+*N.B: Make sure that you have node installed in your commputer, if not [Download Node](https://nodejs.org/en/)*
+### Usage
+Navigate to the Folder and Double Click on index.html File or you can simply open project with live server in your editor.
+Project will open and running to your Browser.
 
 ## :blue_book: Learning Objectives
 
