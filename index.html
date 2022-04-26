@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <title>Awesome Book application</title>
@@ -20,18 +20,20 @@
               <li><a href="#" id="list">LIST</a></li>
               <li><a href="#" id="add">ADD BOOK</a></li>
               <li><a href="#" id="contact">CONTACT</a></li>
-            </ul>
+              </ul>
               
           </nav>
          
         </div>
       </header>
-
+      <div class="date">
+        <p id="time"></p>
+      </div>
       <main>
         <div class="container">
             <div class="books" id="books">
 
-              <h1 class="books-title-1">Available Books</h1>
+              <h1 class="books-title-1">Available Books</h1><br>
               
               <div class="all-books" id="all-books">
                 
@@ -43,6 +45,6 @@
           <p>&copy;awesomebooks || @2022</p>
          
         </footer>
-          <script src="main.js"></script>
+          <script type="module" src="/js/index.js"></script>
 </body>
 </html>
